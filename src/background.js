@@ -1,4 +1,4 @@
-console.log("background.js");
+console.log("background.js Started");
 const data =  {}
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.type === 'performance:metric') {

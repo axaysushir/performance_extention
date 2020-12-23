@@ -1,4 +1,4 @@
-console.log("contentScript.js");
+console.log("contentScript.js started");
 
 import {getTTFB, getLCP, getFID, getFCP, getCLS} from 'web-vitals'
 
