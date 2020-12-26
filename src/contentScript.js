@@ -6,11 +6,12 @@ const infoDiv = document.createElement('div')
 infoDiv.style.position = 'fixed'
 infoDiv.style.left = 0
 infoDiv.style.top = 0
-infoDiv.style.zIndex = 100
+infoDiv.style.zIndex = 3
 infoDiv.style.backgroundColor = 'black'
 infoDiv.style.color= 'white'
 infoDiv.style.padding = '1rem'
 infoDiv.style.fontFamily = 'Arial'
+infoDiv.style.fontSize = '1.5rem'
 document.body.appendChild(infoDiv)
 
 const metrics = {}
