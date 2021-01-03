@@ -11,7 +11,7 @@ infoDiv.style.backgroundColor = 'black'
 infoDiv.style.color= 'white'
 infoDiv.style.padding = '1rem'
 infoDiv.style.fontFamily = 'Arial'
-infoDiv.style.fontSize = '1.5rem'
+
 document.body.appendChild(infoDiv)
 
 const metrics = {}
